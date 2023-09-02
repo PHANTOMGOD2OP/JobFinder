@@ -4,10 +4,15 @@
     "web": {
       "bundler": "metro"
     },
-    "plugins": [
-      "expo-router"
-    ],
-    "name": "reactnative_jobs",
-    "slug": "reactnative_jobs"
+    "name": "jobsift",
+    "slug": "jobsift",
+    "extra": {
+      "eas": {
+        "projectId": "5377355d-1cac-4f43-8b1b-cacd5b860752"
+      }
+    },
+    "android": {
+      "package": "com.phantomgod.jobfinder"
+    }
   }
 }
